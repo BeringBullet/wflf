@@ -12,7 +12,6 @@ using Microsoft.AspNetCore.Authorization;
 using WFLF.Services;
 using WFLF.Entities;
 using WFLF.Models.Users;
-using WFLF.Models;
 
 namespace WFLF.Controllers
 {
@@ -89,6 +88,7 @@ namespace WFLF.Controllers
             }
         }
 
+        [Authorize(Roles = Role.Admin)]
         [HttpGet]
         public IActionResult GetAll()
         {

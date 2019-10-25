@@ -11,6 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System;
+using WFLF.Data;
 
 namespace WFLF
 {
@@ -27,7 +28,9 @@ namespace WFLF
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
-            services.AddDbContext<DataContext>(x => x.UseInMemoryDatabase("TestDb"));
+            //services.AddDbContext<DataContext>(x => x.UseInMemoryDatabase("TestDb"));
+            services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration["ConnectionString:TestDB"]));
+
             services.AddControllers();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
@@ -93,5 +96,6 @@ namespace WFLF
                 endpoints.MapControllers();
             });
         }
+
     }
 }

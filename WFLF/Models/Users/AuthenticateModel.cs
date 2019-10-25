@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace WFLF.Models
+namespace WFLF.Models.Users
 {
     public class AuthenticateModel
     {
