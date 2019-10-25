@@ -65,6 +65,7 @@ namespace WFLF.Services
 
             byte[] passwordHash, passwordSalt;
             CreatePasswordHash(password, out passwordHash, out passwordSalt);
+            user.Role = Role.Admin;
 
             user.PasswordHash = passwordHash;
             user.PasswordSalt = passwordSalt;
