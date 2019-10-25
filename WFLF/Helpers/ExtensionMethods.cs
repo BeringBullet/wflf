@@ -20,6 +20,7 @@ namespace WFLF.Helpers
             if (user == null) return null;
 
             user.PasswordHash = null;
+            user.PasswordSalt = null;
             return user;
         }
     }

@@ -76,3 +76,4 @@ E:\Code\wflf\WFLF\obj\Debug\netcoreapp3.0\WFLF.dll
 E:\Code\wflf\WFLF\obj\Debug\netcoreapp3.0\WFLF.pdb
 E:\Code\wflf\WFLF\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\Code\wflf\WFLF\obj\Debug\netcoreapp3.0\WFLF.MvcApplicationPartsAssemblyInfo.cache
+E:\Code\wflf\WFLF\obj\Debug\netcoreapp3.0\WFLF.csprojAssemblyReference.cache
