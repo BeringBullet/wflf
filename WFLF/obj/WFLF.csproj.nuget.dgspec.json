@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berin\\source\\repos\\WFLF\\WFLF\\WFLF.csproj": {}
+    "E:\\Code\\wflf\\WFLF\\WFLF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berin\\source\\repos\\WFLF\\WFLF\\WFLF.csproj": {
+    "E:\\Code\\wflf\\WFLF\\WFLF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berin\\source\\repos\\WFLF\\WFLF\\WFLF.csproj",
+        "projectUniqueName": "E:\\Code\\wflf\\WFLF\\WFLF.csproj",
         "projectName": "WFLF",
-        "projectPath": "C:\\Users\\berin\\source\\repos\\WFLF\\WFLF\\WFLF.csproj",
+        "projectPath": "E:\\Code\\wflf\\WFLF\\WFLF.csproj",
         "packagesPath": "C:\\Users\\berin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berin\\source\\repos\\WFLF\\WFLF\\obj\\",
+        "outputPath": "E:\\Code\\wflf\\WFLF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
